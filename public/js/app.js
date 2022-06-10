@@ -22609,45 +22609,24 @@ var _hoisted_12 = [_hoisted_11];
 var _hoisted_13 = {
   "class": "absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center pl-20"
 };
-
-var _hoisted_14 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-    href: "#",
-    "class": "text-5xl text-white"
-  }, "Die Lady", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_15 = [_hoisted_14];
+var _hoisted_14 = {
+  href: "#",
+  "class": "text-5xl text-white underline"
+};
+var _hoisted_15 = {
+  "class": "absolute top-1/3 right-0 w-full h-1/3 bg-gray-900 z-10 flex items-center pl-20"
+};
 var _hoisted_16 = {
-  "class": "absolute top-1/3 right-0 w-full h-1/3 bg-gray-800 z-10 flex items-center pl-20"
+  href: "#",
+  "class": "text-5xl text-white underline"
 };
-
-var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-    href: "#",
-    "class": "text-5xl text-white"
-  }, "Das Service", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_18 = [_hoisted_17];
-var _hoisted_19 = {
-  "class": "absolute top-2/3 right-0 w-full h-1/3 bg-gray-600 z-10 flex items-center pl-20"
+var _hoisted_17 = {
+  "class": "absolute top-2/3 right-0 w-full h-1/3 bg-gray-800 z-10 flex items-center pl-20"
 };
-
-var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-    href: "#",
-    "class": "text-5xl text-white"
-  }, "Neue Bilder", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_21 = [_hoisted_20];
+var _hoisted_18 = {
+  href: "#",
+  "class": "text-5xl text-white underline"
+};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
     persisted: ""
@@ -22683,7 +22662,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     persisted: ""
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, _hoisted_15, 512
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+        name: "fade",
+        persisted: ""
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_14, "Die Lady", 512
+          /* NEED_PATCH */
+          ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
+        }),
+        _: 1
+        /* STABLE */
+
+      })], 512
       /* NEED_PATCH */
       ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
     }),
@@ -22695,7 +22686,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     persisted: ""
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, _hoisted_18, 512
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+        name: "fade",
+        persisted: ""
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_16, "Das Spiel", 512
+          /* NEED_PATCH */
+          ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
+        }),
+        _: 1
+        /* STABLE */
+
+      })], 512
       /* NEED_PATCH */
       ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
     }),
@@ -22707,7 +22710,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     persisted: ""
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, _hoisted_21, 512
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+        name: "fade",
+        persisted: ""
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_18, "Die Bilder", 512
+          /* NEED_PATCH */
+          ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
+        }),
+        _: 1
+        /* STABLE */
+
+      })], 512
       /* NEED_PATCH */
       ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
     }),
@@ -22874,7 +22889,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n/* we will explain what these classes do next! */\n.v-enter-active[data-v-6bf30086],\n.v-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: .5s;\n}\n.v-enter-from[data-v-6bf30086],\n.v-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.width-enter-active[data-v-6bf30086],\n.width-leave-active[data-v-6bf30086] {\n    transition: width 0.5s ease;\n}\n.width-enter-active[data-v-6bf30086]:nth-child(2),\n.width-leave-active[data-v-6bf30086]:nth-child(2) {\n    transition-delay: 0.25s;\n}\n.width-enter-active[data-v-6bf30086]:nth-child(3),\n.width-leave-active[data-v-6bf30086]:nth-child(3) {\n    transition-delay: 0.5s;\n}\n.width-enter-from[data-v-6bf30086],\n.width-leave-to[data-v-6bf30086] {\n    width: 0;\n}\n\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n/* we will explain what these classes do next! */\n.v-enter-active[data-v-6bf30086],\n.v-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: .5s;\n}\n.v-enter-from[data-v-6bf30086],\n.v-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade-enter-active[data-v-6bf30086],\n.fade-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n}\n.fade-enter-active[data-v-6bf30086]:nth-child(1),\n.fade-leave-active[data-v-6bf30086]:nth-child(1) {\n    transition-delay: 1s;\n}\n.fade-enter-active[data-v-6bf30086]:nth-child(2),\n.fade-leave-active[data-v-6bf30086]:nth-child(2) {\n    transition-delay: 3s;\n}\n.fade-enter-from[data-v-6bf30086],\n.fade-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.width-enter-active[data-v-6bf30086],\n.width-leave-active[data-v-6bf30086] {\n    transition: width 0.5s ease;\n}\n.width-enter-active[data-v-6bf30086]:nth-child(2),\n.width-leave-active[data-v-6bf30086]:nth-child(2) {\n    transition-delay: 0.25s;\n}\n.width-enter-active[data-v-6bf30086]:nth-child(3),\n.width-leave-active[data-v-6bf30086]:nth-child(3) {\n    transition-delay: 0.5s;\n}\n.width-enter-from[data-v-6bf30086],\n.width-leave-to[data-v-6bf30086] {\n    width: 0;\n}\n\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

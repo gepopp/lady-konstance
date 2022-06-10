@@ -43,17 +43,23 @@
 
         <Transition name="width">
             <div class="absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center pl-20" v-show="nav">
-                <a href="#" class="text-5xl text-white">Die Lady</a>
+                <Transition name="fade">
+                    <a href="#" class="text-5xl text-white underline" v-show="nav">Die Lady</a>
+                </Transition>
             </div>
         </Transition>
         <Transition name="width">
-            <div class="absolute top-1/3 right-0 w-full h-1/3 bg-gray-800 z-10 flex items-center pl-20" v-show="nav">
-                <a href="#" class="text-5xl text-white">Das Service</a>
+            <div class="absolute top-1/3 right-0 w-full h-1/3 bg-gray-900 z-10 flex items-center pl-20" v-show="nav">
+                <Transition name="fade">
+                    <a href="#" class="text-5xl text-white underline" v-show="nav">Das Spiel</a>
+                </Transition>
             </div>
         </Transition>
         <Transition name="width">
-            <div class="absolute top-2/3 right-0 w-full h-1/3 bg-gray-600 z-10 flex items-center pl-20" v-show="nav">
-                <a href="#" class="text-5xl text-white">Neue Bilder</a>
+            <div class="absolute top-2/3 right-0 w-full h-1/3 bg-gray-800 z-10 flex items-center pl-20" v-show="nav">
+                <Transition name="fade">
+                    <a href="#" class="text-5xl text-white underline" v-show="nav">Die Bilder</a>
+                </Transition>
             </div>
         </Transition>
 
@@ -96,6 +102,35 @@ export default {
 .v-leave-to {
     opacity: 0;
 }
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s ease;
+}
+
+.fade-enter-active:nth-child(1),
+.fade-leave-active:nth-child(1) {
+    transition-delay: 1s;
+}
+.fade-enter-active:nth-child(2),
+.fade-leave-active:nth-child(2) {
+    transition-delay: 2s;
+}
+.fade-enter-active:nth-child(2),
+.fade-leave-active:nth-child(2) {
+    transition-delay: 3s;
+}
+
+
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+
+
+
+
 
 .width-enter-active,
 .width-leave-active {
