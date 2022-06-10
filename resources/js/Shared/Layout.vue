@@ -121,11 +121,12 @@ export default {
     transition-delay: 3s;
 }
 
-
-
 .fade-enter-from,
 .fade-leave-to {
     opacity: 0;
+}
+.fade-leave-to{
+    display: none;
 }
 
 
