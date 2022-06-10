@@ -693,3 +693,13 @@ video {
     width: 5rem;
   }
 }
+@media (min-width: 1024px) {
+
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .lg\:pl-20 {
+    padding-left: 5rem;
+  }
+}

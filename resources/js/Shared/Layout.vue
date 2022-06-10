@@ -42,21 +42,21 @@
         </Transition>
 
         <Transition name="width">
-            <div class="absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center pl-20" v-show="nav">
+            <div class="absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center justify-center lg:justify-start lg:pl-20" v-show="nav">
                 <Transition name="fade">
                     <a href="#" class="text-5xl text-white underline" v-show="nav">Die Lady</a>
                 </Transition>
             </div>
         </Transition>
         <Transition name="width">
-            <div class="absolute top-1/3 right-0 w-full h-1/3 bg-gray-900 z-10 flex items-center pl-20" v-show="nav">
+            <div class="absolute top-1/3 right-0 w-full h-1/3 bg-gray-900 z-10 flex items-center justify-center lg:justify-start lg:pl-20" v-show="nav">
                 <Transition name="fade">
                     <a href="#" class="text-5xl text-white underline" v-show="nav">Das Spiel</a>
                 </Transition>
             </div>
         </Transition>
         <Transition name="width">
-            <div class="absolute top-2/3 right-0 w-full h-1/3 bg-gray-800 z-10 flex items-center pl-20" v-show="nav">
+            <div class="absolute top-2/3 right-0 w-full h-1/3 bg-gray-800 z-10 flex items-center justify-center lg:justify-start lg:pl-20" v-show="nav">
                 <Transition name="fade">
                     <a href="#" class="text-5xl text-white underline" v-show="nav">Die Bilder</a>
                 </Transition>

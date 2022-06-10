@@ -22607,21 +22607,21 @@ var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_12 = [_hoisted_11];
 var _hoisted_13 = {
-  "class": "absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center pl-20"
+  "class": "absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center justify-center lg:justify-start lg:pl-20"
 };
 var _hoisted_14 = {
   href: "#",
   "class": "text-5xl text-white underline"
 };
 var _hoisted_15 = {
-  "class": "absolute top-1/3 right-0 w-full h-1/3 bg-gray-900 z-10 flex items-center pl-20"
+  "class": "absolute top-1/3 right-0 w-full h-1/3 bg-gray-900 z-10 flex items-center justify-center lg:justify-start lg:pl-20"
 };
 var _hoisted_16 = {
   href: "#",
   "class": "text-5xl text-white underline"
 };
 var _hoisted_17 = {
-  "class": "absolute top-2/3 right-0 w-full h-1/3 bg-gray-800 z-10 flex items-center pl-20"
+  "class": "absolute top-2/3 right-0 w-full h-1/3 bg-gray-800 z-10 flex items-center justify-center lg:justify-start lg:pl-20"
 };
 var _hoisted_18 = {
   href: "#",
