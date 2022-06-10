@@ -42,23 +42,27 @@
         </Transition>
 
         <Transition name="width">
-            <div class="absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center justify-center lg:justify-start lg:pl-20" v-show="nav">
+            <div class="absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center justify-center lg:justify-start lg:pl-20" id="stars"
+                 v-show="nav">
+
                 <Transition name="fade">
-                    <a href="#" class="text-5xl text-white underline underline-offset-4 decoration-gold uppercase" v-show="nav">Die Lady</a>
+                    <a href="#" class="text-5xl text-white underline underline-offset-4 decoration-gold uppercase" v-show="nav" @click="menu = 'lady'">Die Lady</a>
                 </Transition>
             </div>
         </Transition>
         <Transition name="width">
-            <div class="absolute top-1/3 right-0 w-full h-1/3 bg-black/[.95] z-10 flex items-center justify-center lg:justify-start lg:pl-20" v-show="nav">
+            <div class="absolute top-1/3 right-0 w-full h-1/3 bg-black/[.95] z-10 flex items-center justify-center lg:justify-start lg:pl-20"
+                 v-show="nav">
                 <Transition name="fade2">
-                    <a href="#" class="text-5xl text-white underline underline-offset-4 decoration-gold uppercase" v-show="nav">Das Spiel</a>
+                    <a href="#" class="text-5xl text-white underline underline-offset-4 decoration-gold uppercase" @click="nav = 'game'" v-show="nav">Das Spiel</a>
                 </Transition>
             </div>
         </Transition>
         <Transition name="width">
-            <div class="absolute top-2/3 right-0 w-full h-1/3 bg-black/[.9] z-10 flex items-center justify-center lg:justify-start lg:pl-20" v-show="nav">
+            <div class="absolute top-2/3 right-0 w-full h-1/3 bg-black/[.9] z-10 flex items-center justify-center lg:justify-start lg:pl-20"
+                 v-show="nav">
                 <Transition name="fade3">
-                    <a href="#" class="text-5xl text-white underline underline-offset-4 decoration-gold uppercase" v-show="nav">Die Bilder</a>
+                    <a href="#" class="text-5xl text-white underline underline-offset-4 decoration-gold uppercase" @click="nav = 'pics'" v-show="nav">Die Bilder</a>
                 </Transition>
             </div>
         </Transition>
@@ -78,15 +82,14 @@ export default {
     data() {
         return {
             loaded: false,
-            nav: false
+            nav: false,
+            menu: false
         }
     },
     mounted() {
         Inertia.on('navigate', (event) => {
             this.loaded = true;
         });
-
-        window.onload=function(){ setTimeout(function(){ 		window.scrollTo(0, 1); 	}, 0); }
     }
 
 }
@@ -115,7 +118,8 @@ export default {
 .fade-leave-to {
     opacity: 0;
 }
-.fade-leave-to{
+
+.fade-leave-to {
     display: none;
 }
 
@@ -130,7 +134,8 @@ export default {
 .fade2-leave-to {
     opacity: 0;
 }
-.fade2-leave-to{
+
+.fade2-leave-to {
     display: none;
 }
 
@@ -145,12 +150,10 @@ export default {
 .fade3-leave-to {
     opacity: 0;
 }
-.fade3-leave-to{
+
+.fade3-leave-to {
     display: none;
 }
-
-
-
 
 
 .width-enter-active,
@@ -172,6 +175,5 @@ export default {
 .width-leave-to {
     width: 0;
 }
-
 
 </style>

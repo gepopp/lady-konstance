@@ -22458,7 +22458,8 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       loaded: false,
-      nav: false
+      nav: false,
+      menu: false
     };
   },
   mounted: function mounted() {
@@ -22467,12 +22468,6 @@ __webpack_require__.r(__webpack_exports__);
     _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_0__.Inertia.on('navigate', function (event) {
       _this.loaded = true;
     });
-
-    window.onload = function () {
-      setTimeout(function () {
-        window.scrollTo(0, 1);
-      }, 0);
-    };
   }
 });
 
@@ -22613,25 +22608,14 @@ var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_12 = [_hoisted_11];
 var _hoisted_13 = {
-  "class": "absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center justify-center lg:justify-start lg:pl-20"
+  "class": "absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center justify-center lg:justify-start lg:pl-20",
+  id: "stars"
 };
 var _hoisted_14 = {
-  href: "#",
-  "class": "text-5xl text-white underline underline-offset-4 decoration-gold uppercase"
-};
-var _hoisted_15 = {
   "class": "absolute top-1/3 right-0 w-full h-1/3 bg-black/[.95] z-10 flex items-center justify-center lg:justify-start lg:pl-20"
 };
-var _hoisted_16 = {
-  href: "#",
-  "class": "text-5xl text-white underline underline-offset-4 decoration-gold uppercase"
-};
-var _hoisted_17 = {
+var _hoisted_15 = {
   "class": "absolute top-2/3 right-0 w-full h-1/3 bg-black/[.9] z-10 flex items-center justify-center lg:justify-start lg:pl-20"
-};
-var _hoisted_18 = {
-  href: "#",
-  "class": "text-5xl text-white underline underline-offset-4 decoration-gold uppercase"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
@@ -22673,7 +22657,43 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         persisted: ""
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_14, "Die Lady", 512
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+            href: "#",
+            "class": "text-5xl text-white underline underline-offset-4 decoration-gold uppercase",
+            onClick: _cache[1] || (_cache[1] = function ($event) {
+              return $data.menu = 'lady';
+            })
+          }, "Die Lady", 512
+          /* NEED_PATCH */
+          ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
+        }),
+        _: 1
+        /* STABLE */
+
+      })], 512
+      /* NEED_PATCH */
+      ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+    name: "width",
+    persisted: ""
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+        name: "fade2",
+        persisted: ""
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+            href: "#",
+            "class": "text-5xl text-white underline underline-offset-4 decoration-gold uppercase",
+            onClick: _cache[2] || (_cache[2] = function ($event) {
+              return $data.nav = 'game';
+            })
+          }, "Das Spiel", 512
           /* NEED_PATCH */
           ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
         }),
@@ -22693,35 +22713,17 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
-        name: "fade2",
-        persisted: ""
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_16, "Das Spiel", 512
-          /* NEED_PATCH */
-          ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
-        }),
-        _: 1
-        /* STABLE */
-
-      })], 512
-      /* NEED_PATCH */
-      ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
-    }),
-    _: 1
-    /* STABLE */
-
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
-    name: "width",
-    persisted: ""
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
         name: "fade3",
         persisted: ""
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_18, "Die Bilder", 512
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+            href: "#",
+            "class": "text-5xl text-white underline underline-offset-4 decoration-gold uppercase",
+            onClick: _cache[3] || (_cache[3] = function ($event) {
+              return $data.nav = 'pics';
+            })
+          }, "Die Bilder", 512
           /* NEED_PATCH */
           ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
         }),
@@ -22895,7 +22897,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n/* we will explain what these classes do next! */\n.v-enter-active[data-v-6bf30086],\n.v-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: .5s;\n}\n.v-enter-from[data-v-6bf30086],\n.v-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade-enter-active[data-v-6bf30086],\n.fade-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: .75s;\n}\n.fade-enter-from[data-v-6bf30086],\n.fade-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade-leave-to[data-v-6bf30086]{\n    display: none;\n}\n.fade2-enter-active[data-v-6bf30086],\n.fade2-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: 1s;\n}\n.fade2-enter-from[data-v-6bf30086],\n.fade2-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade2-leave-to[data-v-6bf30086]{\n    display: none;\n}\n.fade3-enter-active[data-v-6bf30086],\n.fade3-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: 1.25s;\n}\n.fade3-enter-from[data-v-6bf30086],\n.fade3-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade3-leave-to[data-v-6bf30086]{\n    display: none;\n}\n.width-enter-active[data-v-6bf30086],\n.width-leave-active[data-v-6bf30086] {\n    transition: width 0.5s ease;\n}\n.width-enter-active[data-v-6bf30086]:nth-child(2),\n.width-leave-active[data-v-6bf30086]:nth-child(2) {\n    transition-delay: 0.25s;\n}\n.width-enter-active[data-v-6bf30086]:nth-child(3),\n.width-leave-active[data-v-6bf30086]:nth-child(3) {\n    transition-delay: 0.5s;\n}\n.width-enter-from[data-v-6bf30086],\n.width-leave-to[data-v-6bf30086] {\n    width: 0;\n}\n\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n/* we will explain what these classes do next! */\n.v-enter-active[data-v-6bf30086],\n.v-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: .5s;\n}\n.v-enter-from[data-v-6bf30086],\n.v-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade-enter-active[data-v-6bf30086],\n.fade-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: .75s;\n}\n.fade-enter-from[data-v-6bf30086],\n.fade-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade-leave-to[data-v-6bf30086] {\n    display: none;\n}\n.fade2-enter-active[data-v-6bf30086],\n.fade2-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: 1s;\n}\n.fade2-enter-from[data-v-6bf30086],\n.fade2-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade2-leave-to[data-v-6bf30086] {\n    display: none;\n}\n.fade3-enter-active[data-v-6bf30086],\n.fade3-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: 1.25s;\n}\n.fade3-enter-from[data-v-6bf30086],\n.fade3-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade3-leave-to[data-v-6bf30086] {\n    display: none;\n}\n.width-enter-active[data-v-6bf30086],\n.width-leave-active[data-v-6bf30086] {\n    transition: width 0.5s ease;\n}\n.width-enter-active[data-v-6bf30086]:nth-child(2),\n.width-leave-active[data-v-6bf30086]:nth-child(2) {\n    transition-delay: 0.25s;\n}\n.width-enter-active[data-v-6bf30086]:nth-child(3),\n.width-leave-active[data-v-6bf30086]:nth-child(3) {\n    transition-delay: 0.5s;\n}\n.width-enter-from[data-v-6bf30086],\n.width-leave-to[data-v-6bf30086] {\n    width: 0;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
