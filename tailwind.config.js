@@ -7,7 +7,11 @@ module.exports = {
       './resources/views/**/*.php'
   ],
   theme: {
-    extend: {},
+    extend: {
+        colors:{
+            gold: '#bd9e66'
+        }
+    },
   },
   plugins: [],
 }

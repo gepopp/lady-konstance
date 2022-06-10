@@ -22467,6 +22467,12 @@ __webpack_require__.r(__webpack_exports__);
     _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_0__.Inertia.on('navigate', function (event) {
       _this.loaded = true;
     });
+
+    window.onload = function () {
+      setTimeout(function () {
+        window.scrollTo(0, 1);
+      }, 0);
+    };
   }
 });
 
@@ -22611,21 +22617,21 @@ var _hoisted_13 = {
 };
 var _hoisted_14 = {
   href: "#",
-  "class": "text-5xl text-white underline"
+  "class": "text-5xl text-white underline underline-offset-4 decoration-gold uppercase"
 };
 var _hoisted_15 = {
-  "class": "absolute top-1/3 right-0 w-full h-1/3 bg-gray-900 z-10 flex items-center justify-center lg:justify-start lg:pl-20"
+  "class": "absolute top-1/3 right-0 w-full h-1/3 bg-black/[.95] z-10 flex items-center justify-center lg:justify-start lg:pl-20"
 };
 var _hoisted_16 = {
   href: "#",
-  "class": "text-5xl text-white underline"
+  "class": "text-5xl text-white underline underline-offset-4 decoration-gold uppercase"
 };
 var _hoisted_17 = {
-  "class": "absolute top-2/3 right-0 w-full h-1/3 bg-gray-800 z-10 flex items-center justify-center lg:justify-start lg:pl-20"
+  "class": "absolute top-2/3 right-0 w-full h-1/3 bg-black/[.9] z-10 flex items-center justify-center lg:justify-start lg:pl-20"
 };
 var _hoisted_18 = {
   href: "#",
-  "class": "text-5xl text-white underline"
+  "class": "text-5xl text-white underline underline-offset-4 decoration-gold uppercase"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
