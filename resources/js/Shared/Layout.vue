@@ -50,14 +50,14 @@
         </Transition>
         <Transition name="width">
             <div class="absolute top-1/3 right-0 w-full h-1/3 bg-black/[.95] z-10 flex items-center justify-center lg:justify-start lg:pl-20" v-show="nav">
-                <Transition name="fade">
+                <Transition name="fade2">
                     <a href="#" class="text-5xl text-white underline underline-offset-4 decoration-gold uppercase" v-show="nav">Das Spiel</a>
                 </Transition>
             </div>
         </Transition>
         <Transition name="width">
             <div class="absolute top-2/3 right-0 w-full h-1/3 bg-black/[.9] z-10 flex items-center justify-center lg:justify-start lg:pl-20" v-show="nav">
-                <Transition name="fade">
+                <Transition name="fade3">
                     <a href="#" class="text-5xl text-white underline underline-offset-4 decoration-gold uppercase" v-show="nav">Die Bilder</a>
                 </Transition>
             </div>
@@ -108,19 +108,7 @@ export default {
 .fade-enter-active,
 .fade-leave-active {
     transition: opacity 0.5s ease;
-}
-
-.fade-enter-active:nth-child(1),
-.fade-leave-active:nth-child(1) {
-    transition-delay: 1s;
-}
-.fade-enter-active:nth-child(2),
-.fade-leave-active:nth-child(2) {
-    transition-delay: 2s;
-}
-.fade-enter-active:nth-child(2),
-.fade-leave-active:nth-child(2) {
-    transition-delay: 3s;
+    transition-delay: .75s;
 }
 
 .fade-enter-from,
@@ -128,6 +116,36 @@ export default {
     opacity: 0;
 }
 .fade-leave-to{
+    display: none;
+}
+
+
+.fade2-enter-active,
+.fade2-leave-active {
+    transition: opacity 0.5s ease;
+    transition-delay: 1s;
+}
+
+.fade2-enter-from,
+.fade2-leave-to {
+    opacity: 0;
+}
+.fade2-leave-to{
+    display: none;
+}
+
+
+.fade3-enter-active,
+.fade3-leave-active {
+    transition: opacity 0.5s ease;
+    transition-delay: 1.25s;
+}
+
+.fade3-enter-from,
+.fade3-leave-to {
+    opacity: 0;
+}
+.fade3-leave-to{
     display: none;
 }
 

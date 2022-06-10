@@ -22693,7 +22693,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
-        name: "fade",
+        name: "fade2",
         persisted: ""
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -22717,7 +22717,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
-        name: "fade",
+        name: "fade3",
         persisted: ""
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -22895,7 +22895,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n/* we will explain what these classes do next! */\n.v-enter-active[data-v-6bf30086],\n.v-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: .5s;\n}\n.v-enter-from[data-v-6bf30086],\n.v-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade-enter-active[data-v-6bf30086],\n.fade-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n}\n.fade-enter-active[data-v-6bf30086]:nth-child(1),\n.fade-leave-active[data-v-6bf30086]:nth-child(1) {\n    transition-delay: 1s;\n}\n.fade-enter-active[data-v-6bf30086]:nth-child(2),\n.fade-leave-active[data-v-6bf30086]:nth-child(2) {\n    transition-delay: 3s;\n}\n.fade-enter-from[data-v-6bf30086],\n.fade-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade-leave-to[data-v-6bf30086]{\n    display: none;\n}\n.width-enter-active[data-v-6bf30086],\n.width-leave-active[data-v-6bf30086] {\n    transition: width 0.5s ease;\n}\n.width-enter-active[data-v-6bf30086]:nth-child(2),\n.width-leave-active[data-v-6bf30086]:nth-child(2) {\n    transition-delay: 0.25s;\n}\n.width-enter-active[data-v-6bf30086]:nth-child(3),\n.width-leave-active[data-v-6bf30086]:nth-child(3) {\n    transition-delay: 0.5s;\n}\n.width-enter-from[data-v-6bf30086],\n.width-leave-to[data-v-6bf30086] {\n    width: 0;\n}\n\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n/* we will explain what these classes do next! */\n.v-enter-active[data-v-6bf30086],\n.v-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: .5s;\n}\n.v-enter-from[data-v-6bf30086],\n.v-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade-enter-active[data-v-6bf30086],\n.fade-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: .75s;\n}\n.fade-enter-from[data-v-6bf30086],\n.fade-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade-leave-to[data-v-6bf30086]{\n    display: none;\n}\n.fade2-enter-active[data-v-6bf30086],\n.fade2-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: 1s;\n}\n.fade2-enter-from[data-v-6bf30086],\n.fade2-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade2-leave-to[data-v-6bf30086]{\n    display: none;\n}\n.fade3-enter-active[data-v-6bf30086],\n.fade3-leave-active[data-v-6bf30086] {\n    transition: opacity 0.5s ease;\n    transition-delay: 1.25s;\n}\n.fade3-enter-from[data-v-6bf30086],\n.fade3-leave-to[data-v-6bf30086] {\n    opacity: 0;\n}\n.fade3-leave-to[data-v-6bf30086]{\n    display: none;\n}\n.width-enter-active[data-v-6bf30086],\n.width-leave-active[data-v-6bf30086] {\n    transition: width 0.5s ease;\n}\n.width-enter-active[data-v-6bf30086]:nth-child(2),\n.width-leave-active[data-v-6bf30086]:nth-child(2) {\n    transition-delay: 0.25s;\n}\n.width-enter-active[data-v-6bf30086]:nth-child(3),\n.width-leave-active[data-v-6bf30086]:nth-child(3) {\n    transition-delay: 0.5s;\n}\n.width-enter-from[data-v-6bf30086],\n.width-leave-to[data-v-6bf30086] {\n    width: 0;\n}\n\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
