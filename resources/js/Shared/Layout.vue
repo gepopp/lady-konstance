@@ -85,6 +85,8 @@ export default {
         Inertia.on('navigate', (event) => {
             this.loaded = true;
         });
+
+        window.onload=function(){ setTimeout(function(){ 		window.scrollTo(0, 1); 	}, 0); }
     }
 
 }
