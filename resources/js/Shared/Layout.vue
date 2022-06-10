@@ -42,18 +42,18 @@
         </Transition>
 
         <Transition name="width">
-            <div class="absolute top-0 right-0 w-full h-1/3 bg-black z-10" v-show="nav">
-
+            <div class="absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center pl-20" v-show="nav">
+                <a href="#" class="text-5xl text-white">Die Lady</a>
             </div>
         </Transition>
         <Transition name="width">
-            <div class="absolute top-1/3 right-0 w-full h-1/3 bg-gray-800 z-10" v-show="nav">
-
+            <div class="absolute top-1/3 right-0 w-full h-1/3 bg-gray-800 z-10 flex items-center pl-20" v-show="nav">
+                <a href="#" class="text-5xl text-white">Das Service</a>
             </div>
         </Transition>
         <Transition name="width">
-            <div class="absolute top-2/3 right-0 w-full h-1/3 bg-gray-600 z-10" v-show="nav">
-
+            <div class="absolute top-2/3 right-0 w-full h-1/3 bg-gray-600 z-10 flex items-center pl-20" v-show="nav">
+                <a href="#" class="text-5xl text-white">Neue Bilder</a>
             </div>
         </Transition>
 

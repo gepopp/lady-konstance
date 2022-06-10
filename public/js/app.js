@@ -22607,14 +22607,47 @@ var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_12 = [_hoisted_11];
 var _hoisted_13 = {
-  "class": "absolute top-0 right-0 w-full h-1/3 bg-black z-10"
+  "class": "absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center pl-20"
 };
-var _hoisted_14 = {
-  "class": "absolute top-1/3 right-0 w-full h-1/3 bg-gray-800 z-10"
+
+var _hoisted_14 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "#",
+    "class": "text-5xl text-white"
+  }, "Die Lady", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_15 = [_hoisted_14];
+var _hoisted_16 = {
+  "class": "absolute top-1/3 right-0 w-full h-1/3 bg-gray-800 z-10 flex items-center pl-20"
 };
-var _hoisted_15 = {
-  "class": "absolute top-2/3 right-0 w-full h-1/3 bg-gray-600 z-10"
+
+var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "#",
+    "class": "text-5xl text-white"
+  }, "Das Service", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_18 = [_hoisted_17];
+var _hoisted_19 = {
+  "class": "absolute top-2/3 right-0 w-full h-1/3 bg-gray-600 z-10 flex items-center pl-20"
 };
+
+var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: "#",
+    "class": "text-5xl text-white"
+  }, "Neue Bilder", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_21 = [_hoisted_20];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
     persisted: ""
@@ -22650,7 +22683,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     persisted: ""
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, null, 512
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, _hoisted_15, 512
       /* NEED_PATCH */
       ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
     }),
@@ -22662,7 +22695,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     persisted: ""
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, null, 512
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, _hoisted_18, 512
       /* NEED_PATCH */
       ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
     }),
@@ -22674,7 +22707,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     persisted: ""
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, null, 512
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, _hoisted_21, 512
       /* NEED_PATCH */
       ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.nav]])];
     }),
