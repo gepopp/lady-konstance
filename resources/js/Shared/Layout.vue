@@ -42,7 +42,7 @@
         </Transition>
 
         <Transition name="width">
-            <div class="absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center justify-center lg:justify-start lg:pl-20" id="stars"
+            <div class="absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center justify-center lg:justify-start lg:pl-20 max-w-2xl" id="stars"
                  v-show="nav">
 
                 <Transition name="fade">
@@ -51,7 +51,7 @@
             </div>
         </Transition>
         <Transition name="width">
-            <div class="absolute top-1/3 right-0 w-full h-1/3 bg-black/[.95] z-10 flex items-center justify-center lg:justify-start lg:pl-20"
+            <div class="absolute top-1/3 right-0 w-full h-1/3 bg-black/[.95] z-10 flex items-center justify-center lg:justify-start lg:pl-20 max-w-2xl"
                  v-show="nav">
                 <Transition name="fade2">
                     <a href="#" class="text-5xl text-white underline underline-offset-4 decoration-gold uppercase" @click="nav = 'game'" v-show="nav">Das Spiel</a>
@@ -59,7 +59,7 @@
             </div>
         </Transition>
         <Transition name="width">
-            <div class="absolute top-2/3 right-0 w-full h-1/3 bg-black/[.9] z-10 flex items-center justify-center lg:justify-start lg:pl-20"
+            <div class="absolute top-2/3 right-0 w-full h-1/3 bg-black/[.9] z-10 flex items-center justify-center lg:justify-start lg:pl-20 max-w-2xl"
                  v-show="nav">
                 <Transition name="fade3">
                     <a href="#" class="text-5xl text-white underline underline-offset-4 decoration-gold uppercase" @click="nav = 'pics'" v-show="nav">Die Bilder</a>

@@ -22608,14 +22608,14 @@ var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_12 = [_hoisted_11];
 var _hoisted_13 = {
-  "class": "absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center justify-center lg:justify-start lg:pl-20",
+  "class": "absolute top-0 right-0 w-full h-1/3 bg-black z-10 flex items-center justify-center lg:justify-start lg:pl-20 max-w-2xl",
   id: "stars"
 };
 var _hoisted_14 = {
-  "class": "absolute top-1/3 right-0 w-full h-1/3 bg-black/[.95] z-10 flex items-center justify-center lg:justify-start lg:pl-20"
+  "class": "absolute top-1/3 right-0 w-full h-1/3 bg-black/[.95] z-10 flex items-center justify-center lg:justify-start lg:pl-20 max-w-2xl"
 };
 var _hoisted_15 = {
-  "class": "absolute top-2/3 right-0 w-full h-1/3 bg-black/[.9] z-10 flex items-center justify-center lg:justify-start lg:pl-20"
+  "class": "absolute top-2/3 right-0 w-full h-1/3 bg-black/[.9] z-10 flex items-center justify-center lg:justify-start lg:pl-20 max-w-2xl"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
